@@ -1,0 +1,128 @@
+[
+  {
+    "id": "istavrit",
+    "name": "İstavrit",
+    "scientific": "Trachurus mediterraneus",
+    "habitat": "Marmara, Ege ve Karadeniz",
+    "tone": "mavi"
+  },
+  {
+    "id": "lufer",
+    "name": "Lüfer",
+    "scientific": "Pomatomus saltatrix",
+    "habitat": "Boğaz ve Marmara",
+    "tone": "yesil"
+  },
+  {
+    "id": "cinekop",
+    "name": "Çinekop",
+    "scientific": "Pomatomus saltatrix",
+    "habitat": "Lüferin küçük boyu",
+    "tone": "yesil"
+  },
+  {
+    "id": "sarikanat",
+    "name": "Sarıkanat",
+    "scientific": "Pomatomus saltatrix",
+    "habitat": "Lüferin orta boyu",
+    "tone": "altin"
+  },
+  {
+    "id": "palamut",
+    "name": "Palamut",
+    "scientific": "Sarda sarda",
+    "habitat": "Karadeniz ve Marmara",
+    "tone": "mavi"
+  },
+  {
+    "id": "levrek",
+    "name": "Levrek",
+    "scientific": "Dicentrarchus labrax",
+    "habitat": "Sığ kıyılar ve haliçler",
+    "tone": "yesil"
+  },
+  {
+    "id": "cupra",
+    "name": "Çupra",
+    "scientific": "Sparus aurata",
+    "habitat": "Ege ve Akdeniz",
+    "tone": "altin"
+  },
+  {
+    "id": "eskina",
+    "name": "Eşkina",
+    "scientific": "Sciaena umbra",
+    "habitat": "Kayalık kıyılar",
+    "tone": "mor"
+  },
+  {
+    "id": "mezgit",
+    "name": "Mezgit",
+    "scientific": "Merlangius merlangus",
+    "habitat": "Karadeniz ve Marmara",
+    "tone": "mavi"
+  },
+  {
+    "id": "kefal",
+    "name": "Kefal",
+    "scientific": "Mugil cephalus",
+    "habitat": "Limanlar ve haliçler",
+    "tone": "yesil"
+  },
+  {
+    "id": "barbun",
+    "name": "Barbun",
+    "scientific": "Mullus barbatus",
+    "habitat": "Kumlu ve çamurlu dipler",
+    "tone": "mercan"
+  },
+  {
+    "id": "zargana",
+    "name": "Zargana",
+    "scientific": "Belone belone",
+    "habitat": "Yüzeye yakın kıyı suları",
+    "tone": "mavi"
+  },
+  {
+    "id": "sinarit",
+    "name": "Sinarit",
+    "scientific": "Dentex dentex",
+    "habitat": "Ege ve Akdeniz",
+    "tone": "mor"
+  },
+  {
+    "id": "mirmir",
+    "name": "Mırmır",
+    "scientific": "Lithognathus mormyrus",
+    "habitat": "Kumluk kıyılar",
+    "tone": "altin"
+  },
+  {
+    "id": "karagoz",
+    "name": "Karagöz",
+    "scientific": "Diplodus vulgaris",
+    "habitat": "Kayalık kıyılar",
+    "tone": "mor"
+  },
+  {
+    "id": "isparoz",
+    "name": "İsparoz",
+    "scientific": "Diplodus annularis",
+    "habitat": "Deniz çayırları ve kayalıklar",
+    "tone": "altin"
+  },
+  {
+    "id": "izmarit",
+    "name": "İzmarit",
+    "scientific": "Spicara smaris",
+    "habitat": "Ege ve Marmara",
+    "tone": "mavi"
+  },
+  {
+    "id": "uskumru",
+    "name": "Uskumru",
+    "scientific": "Scomber scombrus",
+    "habitat": "Marmara ve Karadeniz",
+    "tone": "yesil"
+  }
+]
