@@ -1,0 +1,234 @@
+{
+  "spots": [
+    {
+      "id": "kuzguncuk",
+      "name": "Kuzguncuk Sahili",
+      "district": "Üsküdar",
+      "lat": 41.0373,
+      "lng": 29.0269
+    },
+    {
+      "id": "arnavutkoy",
+      "name": "Arnavutköy İskelesi",
+      "district": "Beşiktaş",
+      "lat": 41.0677,
+      "lng": 29.0434
+    },
+    {
+      "id": "uskudar",
+      "name": "Üsküdar İskelesi",
+      "district": "Üsküdar",
+      "lat": 41.0275,
+      "lng": 29.0152
+    },
+    {
+      "id": "kandilli",
+      "name": "Kandilli Sahili",
+      "district": "Üsküdar",
+      "lat": 41.0746,
+      "lng": 29.0592
+    },
+    {
+      "id": "kabatas",
+      "name": "Kabataş Rıhtımı",
+      "district": "Beyoğlu",
+      "lat": 41.0323,
+      "lng": 28.9935
+    },
+    {
+      "id": "moda",
+      "name": "Moda Burnu",
+      "district": "Kadıköy",
+      "lat": 40.9784,
+      "lng": 29.0261
+    },
+    {
+      "id": "bebek",
+      "name": "Bebek Parkı Kıyısı",
+      "district": "Beşiktaş",
+      "lat": 41.077,
+      "lng": 29.0455
+    },
+    {
+      "id": "cengelkoy",
+      "name": "Çengelköy Sahili",
+      "district": "Üsküdar",
+      "lat": 41.0505,
+      "lng": 29.0516
+    },
+    {
+      "id": "sariyer",
+      "name": "Sarıyer Rıhtımı",
+      "district": "Sarıyer",
+      "lat": 41.1655,
+      "lng": 29.0576
+    },
+    {
+      "id": "buyukada",
+      "name": "Büyükada İskelesi",
+      "district": "Adalar",
+      "lat": 40.8771,
+      "lng": 29.1295
+    },
+    {
+      "id": "urla",
+      "name": "Urla İskele",
+      "district": "İzmir",
+      "lat": 38.3631,
+      "lng": 26.7752
+    },
+    {
+      "id": "konyaalti",
+      "name": "Konyaaltı Sahili",
+      "district": "Antalya",
+      "lat": 36.8648,
+      "lng": 30.6386
+    }
+  ],
+  "catches": [
+    {
+      "id": "ornek-1",
+      "spotId": "kuzguncuk",
+      "speciesId": "istavrit",
+      "daysAgo": 0,
+      "hour": 7,
+      "minute": 0
+    },
+    {
+      "id": "ornek-2",
+      "spotId": "arnavutkoy",
+      "speciesId": "lufer",
+      "daysAgo": 0,
+      "hour": 17,
+      "minute": 13
+    },
+    {
+      "id": "ornek-3",
+      "spotId": "uskudar",
+      "speciesId": "palamut",
+      "daysAgo": 1,
+      "hour": 7,
+      "minute": 26
+    },
+    {
+      "id": "ornek-4",
+      "spotId": "kandilli",
+      "speciesId": "levrek",
+      "daysAgo": 2,
+      "hour": 17,
+      "minute": 39
+    },
+    {
+      "id": "ornek-5",
+      "spotId": "kuzguncuk",
+      "speciesId": "cinekop",
+      "daysAgo": 2,
+      "hour": 7,
+      "minute": 52
+    },
+    {
+      "id": "ornek-6",
+      "spotId": "kabatas",
+      "speciesId": "kefal",
+      "daysAgo": 3,
+      "hour": 17,
+      "minute": 5
+    },
+    {
+      "id": "ornek-7",
+      "spotId": "cengelkoy",
+      "speciesId": "sarikanat",
+      "daysAgo": 4,
+      "hour": 7,
+      "minute": 18
+    },
+    {
+      "id": "ornek-8",
+      "spotId": "moda",
+      "speciesId": "eskina",
+      "daysAgo": 5,
+      "hour": 17,
+      "minute": 31
+    },
+    {
+      "id": "ornek-9",
+      "spotId": "sariyer",
+      "speciesId": "mezgit",
+      "daysAgo": 5,
+      "hour": 7,
+      "minute": 44
+    },
+    {
+      "id": "ornek-10",
+      "spotId": "bebek",
+      "speciesId": "istavrit",
+      "daysAgo": 6,
+      "hour": 17,
+      "minute": 57
+    },
+    {
+      "id": "ornek-11",
+      "spotId": "urla",
+      "speciesId": "cupra",
+      "daysAgo": 7,
+      "hour": 7,
+      "minute": 10
+    },
+    {
+      "id": "ornek-12",
+      "spotId": "konyaalti",
+      "speciesId": "mirmir",
+      "daysAgo": 7,
+      "hour": 17,
+      "minute": 23
+    },
+    {
+      "id": "ornek-13",
+      "spotId": "cengelkoy",
+      "speciesId": "zargana",
+      "daysAgo": 8,
+      "hour": 7,
+      "minute": 36
+    },
+    {
+      "id": "ornek-14",
+      "spotId": "konyaalti",
+      "speciesId": "barbun",
+      "daysAgo": 9,
+      "hour": 17,
+      "minute": 49
+    },
+    {
+      "id": "ornek-15",
+      "spotId": "urla",
+      "speciesId": "karagoz",
+      "daysAgo": 10,
+      "hour": 7,
+      "minute": 2
+    },
+    {
+      "id": "ornek-16",
+      "spotId": "buyukada",
+      "speciesId": "uskumru",
+      "daysAgo": 10,
+      "hour": 17,
+      "minute": 15
+    },
+    {
+      "id": "ornek-17",
+      "spotId": "kuzguncuk",
+      "speciesId": "istavrit",
+      "daysAgo": 11,
+      "hour": 7,
+      "minute": 28
+    },
+    {
+      "id": "ornek-18",
+      "spotId": "arnavutkoy",
+      "speciesId": "levrek",
+      "daysAgo": 12,
+      "hour": 17,
+      "minute": 41
+    }
+  ]
+}
