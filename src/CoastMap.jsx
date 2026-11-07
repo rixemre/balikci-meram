@@ -10,6 +10,10 @@ const icons = Object.fromEntries(['spot', 'active', 'draft'].map(kind => [kind, 
   className: `pin pin--${kind}`, html: `<span>${anchor}</span>`, iconSize: [52, 52], iconAnchor: [26, 44]
 })]))
 
+function stopMapClicks(element) {
+  if (element) L.DomEvent.disableClickPropagation(element)
+}
+
 function MapTools({ onPick, onGps, gpsPending, target, picking }) {
   const map = useMap()
   useMapEvents({ click: ({ latlng }) => onPick({ lat: latlng.lat, lng: latlng.lng }) })
@@ -19,12 +23,12 @@ function MapTools({ onPick, onGps, gpsPending, target, picking }) {
   }, [map, target])
 
   return <>
-    <div className="map-tools" aria-label="Harita araçları">
+    <div ref={stopMapClicks} className="map-tools" aria-label="Harita araçları">
       <button type="button" aria-label="Yakınlaştır" onClick={() => map.zoomIn()}><Plus /></button>
       <button type="button" aria-label="Uzaklaştır" onClick={() => map.zoomOut()}><Minus /></button>
       <button type="button" aria-label="Boğaz’a dön" onClick={() => map.setView(center, 13)}><MapPinned /></button>
     </div>
-    <div className="map-actions">
+    <div ref={stopMapClicks} className="map-actions">
       {picking && <button className="map-center" onClick={() => {
         const { lat, lng } = map.getCenter()
         onPick({ lat, lng })
@@ -48,7 +52,7 @@ export default function CoastMap({ spots, selected, draft, onSelect, onPick, onG
       {spots.map(spot => <Marker key={spot.id} position={[spot.lat, spot.lng]}
         icon={icons[selected?.id === spot.id ? 'active' : 'spot']}
         zIndexOffset={selected?.id === spot.id ? 400 : 0}
-        title={spot.name} alt={spot.name} eventHandlers={{ click: () => onSelect(spot) }} />)}
+        title={spot.name} alt={spot.name} eventHandlers={{ add: ({ target }) => target.getElement()?.setAttribute('aria-label', spot.name), click: () => onSelect(spot) }} />)}
       {draft && <Marker position={[draft.lat, draft.lng]} icon={icons.draft} zIndexOffset={500} interactive={false} keyboard={false} />}
     </MapContainer>
     <div className="map-label"><MapPin size={18} /><span>{picking ? 'Haritadan bir konum seç' : 'Mera haritası'}</span></div>
@@ -57,3 +61,4 @@ export default function CoastMap({ spots, selected, draft, onSelect, onPick, onG
     <a className="map-credit" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">© OpenStreetMap katkıcıları</a>
   </section>
 }
+
