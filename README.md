@@ -26,3 +26,7 @@ Yeni meralar, avlar ve sıkıştırılmış base64 fotoğraflar bu tarayıcıdak
 
 Harita verileri © [OpenStreetMap katkıcıları](https://www.openstreetmap.org/copyright).
 
+
+## Mobil uygulama
+
+iOS ve Android için Expo uygulaması [mobile/](mobile/README.md) klasöründedir.
