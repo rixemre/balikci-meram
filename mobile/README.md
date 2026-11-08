@@ -1,6 +1,6 @@
 # Balıkçı Meram · Mobil
 
-iOS ve Android için Expo SDK 57, Expo Router ve TypeScript uygulaması. Web sürümü depo kökünde yer alır.
+iOS ve Android için Expo SDK 58, Expo Router ve TypeScript uygulaması. Web sürümü depo kökünde yer alır.
 
 ## Telefonda çalıştırma
 
@@ -8,10 +8,10 @@ Bu klasörde Node.js 22.13 veya daha yeni bir sürümle:
 
 ```sh
 npm ci
-npm start
+npx expo start --clear
 ```
 
-Expo SDK 57 ile uyumlu Expo Go veya bir geliştirme derlemesiyle QR kodunu aç. Mağazadaki Expo Go sürümü SDK 57 ile uyumlu değilse, kendi geliştirme derlemeni kullan. iOS simülatörü için macOS ve Xcode gerekir. Android emülatörü için Android Studio gerekir.
+Expo SDK 58 ile uyumlu Expo Go veya bir geliştirme derlemesiyle QR kodunu aç. Mağazadaki Expo Go sürümü SDK 58 ile uyumlu değilse, kendi geliştirme derlemeni kullan. iOS simülatörü için macOS ve Xcode gerekir. Android emülatörü için Android Studio gerekir.
 
 ```sh
 npm run typecheck

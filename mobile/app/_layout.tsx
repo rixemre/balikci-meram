@@ -26,7 +26,7 @@ function Navigation() {
     <StatusBar barStyle="light-content" />
     <View style={local.brand}><Text accessibilityRole="header" style={local.brandText}>⚓  Balıkçı Meram</Text></View>
     <Tabs screenOptions={{ headerShown: false }}
-      tabBar={({ state, navigation }) => <View style={local.dock}>
+      tabBar={({ state }) => <View style={local.dock}>
         <View style={local.buttons}>
           <Button grow kind="primary" label="+ Balık Kaydet" onPress={() => {
             if (selected) { setPicking(undefined); setDraft({ spot: selected, intent: 'catch' }) }
@@ -38,7 +38,7 @@ function Navigation() {
           {state.routes.filter(route => route.name === 'index' || route.name === 'catches').map(route => <Button grow role="tab" key={route.key}
             label={route.name === 'index' ? 'Harita' : 'Tutulan Balıklar'}
             active={route.key === state.routes[state.index]?.key} kind={route.key === state.routes[state.index]?.key ? 'dark' : 'plain'}
-            onPress={() => { if (route.name !== 'index') setPicking(undefined); navigation.navigate(route.name) }} />)}
+            onPress={() => { if (route.name !== 'index') setPicking(undefined); router.navigate(route.name === 'index' ? '/' : '/catches') }} />)}
         </View>
       </View>}>
       <Tabs.Screen name="index" options={{ title: 'Harita' }} />
